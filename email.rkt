@@ -56,9 +56,9 @@
            to	 	 	 	 
            cc	 	 	 	 
            bcc
-           (list* "MIME-Version: 1.0"
-                  "Content-Type: multipart/alternative; boundary=\"=_myboundary\""
-                  extra-headers)))
+           "MIME-Version: 1.0"
+           "Content-Type: multipart/alternative; boundary=\"=_myboundary\""
+           extra-headers))
   (dynamic-wind
    void
    (λ ()
